@@ -1,0 +1,22 @@
+bakery-store/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── package.json
+│   └── public/
+│
+└── database/
+    └── mongodb/
