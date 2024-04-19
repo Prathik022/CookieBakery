@@ -1,5 +1,6 @@
 const BakeryItem = require('../models/BakeryItem');
 
+//getting all the bakery items form the database(Inventory)
 exports.getAllBakeryItems = async (req, res) => {
   try {
     const bakeryItems = await BakeryItem.find();
@@ -10,6 +11,7 @@ exports.getAllBakeryItems = async (req, res) => {
   }
 };
 
+// getting the ingredients based on the id
 exports.getBakeryItemById = async (req, res) => {
   const { id } = req.params; // Get the ID from request parameters
   try {
@@ -24,7 +26,7 @@ exports.getBakeryItemById = async (req, res) => {
   }
 };
 
-
+// creating the new bakery items
 exports.createBakeryItem = async (req, res) => {
   const { name, ingredients, shape, bakingTime, cost, calories } = req.body;
   

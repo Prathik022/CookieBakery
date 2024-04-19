@@ -1,3 +1,5 @@
+Structure of the Application
+
 bakery-store/
 │
 ├── backend/
@@ -12,7 +14,6 @@ bakery-store/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
-│   │   ├── services/
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   └── package.json
@@ -20,3 +21,13 @@ bakery-store/
 │
 └── database/
     └── mongodb/
+
+
+Guide to run the server:
+
+- go to the backend folde
+- open the server.js file and change the url for the mongodb(give your database password and url)
+- use command { npm init}
+- download all the necessary packages { npm i axios mongoose cors express nodemon}
+- config the nodemon in package.json
+- { npm start}

@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//Defining the bakeryItems Schema
 const bakeryItemSchema = new mongoose.Schema({
   name: String,
   ingredients: {
